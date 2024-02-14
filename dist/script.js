@@ -2,13 +2,13 @@
 var scriptElement = document.createElement("script");
 scriptElement.type = "module";
 scriptElement.crossOrigin = true;
-scriptElement.src = "/assets/index-j-tZc8kk.js";
+scriptElement.src = "https://sqpine.github.io/rainbow-button/dist/assets/index-j-tZc8kk.js";
 
 // Create a new link element for CSS
 var linkElement = document.createElement("link");
 linkElement.rel = "stylesheet";
 linkElement.crossOrigin = true;
-linkElement.href = "/assets/index-iGirBDd0.css";
+linkElement.href = "https://sqpine.github.io/rainbow-button/dist/assets/index-iGirBDd0.css";
 
 // Append the script and link elements to the head of the document
 document.head.appendChild(scriptElement);
