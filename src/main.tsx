@@ -25,7 +25,7 @@ const config = getDefaultConfig({
     appName: 'My RainbowKit App',
     projectId: 'YOUR_PROJECT_ID',
     chains: [mainnet, polygon, optimism, arbitrum, base, zora],
-    ssr: true
+    ssr: false
 });
 
 const queryClient = new QueryClient();
@@ -36,7 +36,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           <QueryClientProvider client={queryClient}>
               <RainbowKitProvider>
                   <ConnectButton />
-
               </RainbowKitProvider>
           </QueryClientProvider>
       </WagmiProvider>
