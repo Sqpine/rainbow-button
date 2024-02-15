@@ -2,7 +2,7 @@
 var scriptElement = document.createElement("script");
 scriptElement.type = "module";
 scriptElement.crossOrigin = true;
-scriptElement.src = "https://sqpine.github.io/rainbow-button/dist/assets/index-2LbHeNIa.js";
+scriptElement.src = "https://sqpine.github.io/rainbow-button/dist/assets/index-Dh7rsrab.js";
 
 // Create a new link element for CSS
 var linkElement = document.createElement("link");

@@ -4,7 +4,6 @@ import '@rainbow-me/rainbowkit/styles.css';
 
 import {
     getDefaultConfig,
-    ConnectButton,
     RainbowKitProvider,
 } from '@rainbow-me/rainbowkit';
 import { WagmiProvider } from 'wagmi';
@@ -20,6 +19,7 @@ import {
     QueryClientProvider,
     QueryClient,
 } from "@tanstack/react-query";
+import {ConnectWalletButton} from "./connect-wallet-button.tsx";
 
 const config = getDefaultConfig({
     appName: 'Test',
@@ -35,7 +35,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <WagmiProvider config={config}>
           <QueryClientProvider client={queryClient}>
               <RainbowKitProvider>
-                  <ConnectButton />
+                  <ConnectWalletButton/>
               </RainbowKitProvider>
           </QueryClientProvider>
       </WagmiProvider>
