@@ -22,8 +22,8 @@ import {
 } from "@tanstack/react-query";
 
 const config = getDefaultConfig({
-    appName: 'My RainbowKit App',
-    projectId: 'YOUR_PROJECT_ID',
+    appName: 'Test',
+    projectId: '9b72a50685636a672927a06ea9e3633d',
     chains: [mainnet, polygon, optimism, arbitrum, base, zora],
     ssr: false
 });
